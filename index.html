@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header>
+        <div class= "ui large header">
+            <h1> Rock Paper Scissors </h1>
+        </div>
+        
+    </header>
+    <div class = "buttonDiv container">
+        <button id="rock" class= "ui orange button">
+            Rock
+        </button>
+        <button id="paper" class="ui yellow button">
+            Paper
+        </button>
+
+        <button id="scissors" class="ui olive button">
+            Scissors
+        </button>
+    </div>
+    <div class = "scoreDiv container">
+        <p> Player Score: <span id="playerWins"> </span> </p>
+        <p> Computer Score: <span id="computerWins"> </span></p>
+        <p>Ties: <span id="ties"> </span></p>
+    </div>
+    
+    <script src="app.js" defer></script>
+</body>
+</html>
